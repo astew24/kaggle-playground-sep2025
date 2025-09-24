@@ -1,18 +1,17 @@
-# Create README
-echo "# Kaggle Playground Series S3E9 - Concrete Strength Prediction
+# Kaggle Playground Series S3E9 - Concrete Strength Prediction
 
 ## Project Overview
 This project implements a machine learning pipeline to predict concrete compressive strength based on various material properties and mix ratios.
 
 ## Files
-- \`playground_model.ipynb\` - Main Jupyter notebook with EDA and modeling
-- \`data/\` - Dataset files (not tracked in git due to size)
-- \`submission.csv\` - Generated predictions for Kaggle submission
+- `playground_model.ipynb` - Main Jupyter notebook with EDA and modeling
+- `data/` - Dataset files (not tracked in git due to size)
+- `submission.csv` - Generated predictions for Kaggle submission
 
 ## Setup
-1. Install required packages: \`pip install pandas numpy matplotlib seaborn scikit-learn jupyter\`
-2. Download competition data to \`data/\` folder
-3. Run the notebook: \`jupyter notebook playground_model.ipynb\`
+1. Install required packages: `pip install pandas numpy matplotlib seaborn scikit-learn jupyter`
+2. Download competition data to `data/` folder
+3. Run the notebook: `jupyter notebook playground_model.ipynb`
 
 ## Progress
 - [x] Data loading and inspection
@@ -28,4 +27,9 @@ This project implements a machine learning pipeline to predict concrete compress
 - Implement feature engineering
 - Try different algorithms (XGBoost, LightGBM)
 - Hyperparameter tuning
-- Ensemble methods" > README.md
+- Ensemble methods
+
+## Daily Updates
+- Day 1: Initial setup and baseline model
+- Day 2: Data inspection and error handling
+- Day 3: README and documentation
